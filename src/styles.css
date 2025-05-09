@@ -1,0 +1,109 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+.container:hover {
+  background-color: #d6d4d4;
+}
+
+.container.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+p{
+  font-size: small;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+button.add {
+  background-color: #22c55e;
+  color: white;
+  margin-top: 10px;
+}
+
+button.add:hover {
+  background-color: #16a34a;
+}
+
+button.delete {
+  background-color: #ef4444;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #dc2626;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+    
+  }
+  
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+label {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.subtask-list {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.subtask {
+  font-size: 0.9rem;
+  margin: 3px 0;
+}
+
+.subtask.completed {
+  text-decoration: line-through;
+  color: #999;
+}

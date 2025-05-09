@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Estudar React",
+      "description": "Praticar useEffect",
+      "priority": "alta",
+      "done": true,
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Ler documentação",
+          "done": true
+        },
+        {
+          "id": 2,
+          "title": "Fazer exercícios",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "cc6b",
+      "title": "nova",
+      "description": "tarefa",
+      "priority": "media",
+      "done": false,
+      "subtasks": [
+        {
+          "id": 1746799400814,
+          "title": "Test 1",
+          "done": false
+        },
+        {
+          "id": 1746799410866,
+          "title": "Test 2",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "70e0",
+      "title": "Outra",
+      "description": "ruim",
+      "priority": "alta",
+      "done": false,
+      "subtasks": [
+        {
+          "id": 1746799935156,
+          "title": "test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "fdd7",
+      "title": "Novo teste",
+      "description": "",
+      "priority": "baixa",
+      "done": false
+    },
+    {
+      "id": "8d8e",
+      "title": "Novo Teste",
+      "description": "Subtarefas",
+      "priority": "baixa",
+      "done": false,
+      "subtasks": [
+        {
+          "id": 1746799118966,
+          "title": "Sub1",
+          "done": false
+        },
+        {
+          "id": 1746799125307,
+          "title": "Sub2",
+          "done": false
+        }
+      ]
+    }
+  ]
+}
