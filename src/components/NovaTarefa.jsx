@@ -42,9 +42,9 @@ function NovaTarefa() {
   };
 
   return (
-    <div className='center'>
+    <div >
       <h1>Nova Tarefa</h1>
-      <form onSubmit={handleSubmit}>
+      <form className='center' onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Título"
